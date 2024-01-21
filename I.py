@@ -1,10 +1,7 @@
 import sys
 
-
 def GetAnswer(n, a, q, three, queries):
     # Write your code here
-
-
 
 def main():
     n = int(sys.stdin.readline().strip())
@@ -24,7 +21,6 @@ def main():
     result = GetAnswer(n, a, q, three, queries)
 
     print(result)
-
 
 if __name__ == "__main__":
     main()
@@ -83,7 +79,15 @@ def GetAnswer(n, m, a, b):
             # print(s)
             t = [a[at]]; bt+=1; c = b[bt]-1
     return s
-    
+#     5
+# 2
+# 1
+# 2
+# 3
+# 4
+# 5
+# 2
+# 3
 def main():
     n = int(sys.stdin.readline().strip())
     
