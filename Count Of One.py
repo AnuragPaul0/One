@@ -1,5 +1,5 @@
 def getCountOfOneNumbers(L, R):
-    result= 0
+    result = 0
     while(L<=R):
         if int(str(L)[0])==1:
             result+=1
