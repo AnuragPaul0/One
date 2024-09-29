@@ -1,19 +1,13 @@
 import sys
-
 def GetAnswer(n, a, q, three, queries):
     # Write your code here
-
 def main():
     n = int(sys.stdin.readline().strip())
-    
     a = []
     for _ in range(n):
         a.append(int(sys.stdin.readline().strip()))
-    
     q = int(sys.stdin.readline().strip())
-    
     three = int(sys.stdin.readline().strip())
-    
     queries = []
     for _ in range(q):
         queries.append(list(map(lambda x: int(x), sys.stdin.readline().strip().split(" "))))
@@ -21,11 +15,8 @@ def main():
     result = GetAnswer(n, a, q, three, queries)
 
     print(result)
-
 if __name__ == "__main__":
     main()
-
-
 def solve(N, M, S, str):
     # Write your code here
     u = S[::-1];c = 0
