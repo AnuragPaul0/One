@@ -5,5 +5,6 @@ def nicePair(S):
         # print(i)
         for j in range(i,n-1-1):
             if S[i]=='a' and S[j+1] == 'b': result += 1
-    return result #INPUT # OUTPUT
+    return result
 print(nicePair('ababasbsbsb'))
+# 9
